@@ -10,9 +10,41 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 297.0, 110.0, 1000.0, 759.0 ],
+		"rect" : [ 34.0, 95.0, 860.0, 853.0 ],
+		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 439.0, 525.0, 74.0, 22.0 ],
+					"text" : "snapshot~ 5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"filename" : "scope.js",
+					"id" : "obj-4",
+					"maxclass" : "v8ui",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"parameter_enable" : 0,
+					"patching_rect" : [ 439.0, 564.0, 287.0, 131.0 ],
+					"textfile" : 					{
+						"filename" : "scope.js",
+						"flags" : 0,
+						"embed" : 0,
+						"autowatch" : 1
+					}
+
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "number",
@@ -134,19 +166,6 @@
 			}
 , 			{
 				"box" : 				{
-					"activelinecolor" : [ 0.713973045349121, 0.882369041442871, 0.964830100536346, 1.0 ],
-					"id" : "obj-69",
-					"maxclass" : "live.scope~",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 0.0, 0.0, 115.0, 43.0 ],
-					"range" : [ 0.0, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-67",
 					"maxclass" : "live.dial",
 					"numinlets" : 1,
@@ -156,7 +175,7 @@
 					"patching_rect" : [ 706.0, 199.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[5]",
+							"parameter_longname" : "live.dial[7]",
 							"parameter_mmax" : 1.0,
 							"parameter_mmin" : -1.0,
 							"parameter_modmode" : 3,
@@ -277,7 +296,7 @@
 					"patching_rect" : [ 531.0, 199.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[4]",
+							"parameter_longname" : "live.dial[6]",
 							"parameter_mmax" : 500.0,
 							"parameter_mmin" : 50.0,
 							"parameter_modmode" : 3,
@@ -315,7 +334,7 @@
 					"patching_rect" : [ 358.0, 199.0, 41.0, 48.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.dial[3]",
+							"parameter_longname" : "live.dial[8]",
 							"parameter_mmax" : 1.0,
 							"parameter_modmode" : 3,
 							"parameter_shortname" : "depth",
@@ -520,15 +539,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 1 ],
-					"order" : 0,
-					"source" : [ "obj-70", 0 ]
+					"destination" : [ "obj-4", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-56", 0 ],
+					"destination" : [ "obj-56", 1 ],
 					"order" : 1,
 					"source" : [ "obj-70", 0 ]
 				}
@@ -536,8 +554,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-69", 0 ],
+					"destination" : [ "obj-56", 0 ],
 					"order" : 2,
+					"source" : [ "obj-70", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"order" : 0,
 					"source" : [ "obj-70", 0 ]
 				}
 
@@ -585,25 +611,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-49" : [ "live.dial[4]", "time", 0 ],
-			"obj-58" : [ "live.dial[3]", "depth", 0 ],
-			"obj-67" : [ "live.dial[5]", "curve", 0 ],
-			"parameterbanks" : 			{
-				"0" : 				{
-					"index" : 0,
-					"name" : "",
-					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-					"buttons" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-				}
-
-			}
-,
-			"inherited_shortname" : 1
-		}
-,
-		"dependency_cache" : [  ],
-		"autosave" : 0,
 		"toolbarexclusions" : [ "calendar" ]
 	}
 
