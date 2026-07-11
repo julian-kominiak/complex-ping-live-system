@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 95.0, 860.0, 853.0 ],
+		"rect" : [ 219.0, 165.0, 1073.0, 738.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -57,7 +57,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 593.0, 387.0, 55.0, 22.0 ],
-					"presentation_linecount" : 2,
 					"text" : "curve $1"
 				}
 
@@ -96,7 +95,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 446.0, 460.0, 344.0, 147.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 403.0, 169.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 344.0, 147.0 ],
 					"textfile" : 					{
 						"filename" : "scope.js",
 						"flags" : 0,
