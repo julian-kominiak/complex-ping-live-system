@@ -10,20 +10,29 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 88.0, 1079.0, 623.0 ],
+		"rect" : [ -231.0, -853.0, 1217.0, 819.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
+					"attr_bpm" : 154.0,
+					"beats" : 25,
 					"buffername" : "#0_buffer",
 					"id" : "obj-21",
+					"labels" : 0,
 					"maxclass" : "waveform~",
+					"norulerclick" : 0,
 					"numinlets" : 5,
 					"numoutlets" : 6,
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
 					"patching_rect" : [ 337.179529786109924, 621.794950366020203, 687.0, 148.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 0.0, 687.0, 148.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 687.0, 148.0 ],
+					"ruler" : 0,
+					"shadowalpha" : 0.14,
+					"shadowblend" : 1.0,
+					"shadowproportion" : 1.0,
+					"vticks" : 0
 				}
 
 			}
