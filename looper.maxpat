@@ -21,9 +21,9 @@
 					"numinlets" : 5,
 					"numoutlets" : 6,
 					"outlettype" : [ "float", "float", "float", "float", "list", "" ],
-					"patching_rect" : [ 426.0, 643.0, 700.0, 157.0 ],
+					"patching_rect" : [ 337.179529786109924, 621.794950366020203, 687.0, 148.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.0, 698.0, 141.0 ]
+					"presentation_rect" : [ 0.0, 0.0, 687.0, 148.0 ]
 				}
 
 			}
