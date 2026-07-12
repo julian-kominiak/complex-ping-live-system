@@ -10,12 +10,12 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -231.0, -853.0, 1217.0, 819.0 ],
+		"rect" : [ 34.0, 88.0, 1079.0, 623.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
 				"box" : 				{
-					"buffername" : "",
+					"buffername" : "#0_buffer",
 					"id" : "obj-21",
 					"maxclass" : "waveform~",
 					"numinlets" : 5,
@@ -34,7 +34,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 574.0, 154.0, 29.5, 22.0 ],
+					"patching_rect" : [ 456.0, 150.0, 29.5, 22.0 ],
 					"text" : "1"
 				}
 
@@ -46,7 +46,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 467.0, 124.0, 29.5, 22.0 ],
+					"patching_rect" : [ 422.0, 150.0, 29.5, 22.0 ],
 					"text" : "0"
 				}
 
