@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 219.0, 103.0, 1217.0, 819.0 ],
+		"rect" : [ 243.0, 99.0, 1217.0, 819.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -22,17 +22,6 @@
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 425.0, 305.0, 110.0, 22.0 ],
 					"text" : "scale~ 0 1 0 20000"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "live.scope~",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 166.0, 309.0, 184.0, 68.0 ]
 				}
 
 			}
@@ -210,8 +199,8 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 492.0, 573.0, 35.0, 22.0 ],
-					"text" : "r line"
+					"patching_rect" : [ 492.0, 573.0, 68.0, 22.0 ],
+					"text" : "r #0_line"
 				}
 
 			}
@@ -234,8 +223,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 425.0, 342.0, 88.0, 22.0 ],
-					"text" : "snapshot~ 200"
+					"patching_rect" : [ 425.0, 342.0, 81.0, 22.0 ],
+					"text" : "snapshot~ 20"
 				}
 
 			}
@@ -424,16 +413,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
-					"order" : 1,
-					"source" : [ "obj-17", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-16", 0 ],
-					"order" : 0,
 					"source" : [ "obj-17", 0 ]
 				}
 
