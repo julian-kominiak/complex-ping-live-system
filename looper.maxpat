@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ -231.0, -853.0, 1217.0, 819.0 ],
+		"rect" : [ 347.0, 101.0, 1217.0, 819.0 ],
 		"openinpresentation" : 1,
 		"gridsize" : [ 15.0, 15.0 ],
 		"boxes" : [ 			{
@@ -151,7 +151,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 425.0, 399.0, 37.0, 22.0 ],
+					"patching_rect" : [ 425.0, 402.0, 37.0, 22.0 ],
 					"text" : "s line"
 				}
 
@@ -163,7 +163,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 497.0, 582.0, 35.0, 22.0 ],
+					"patching_rect" : [ 492.0, 573.0, 35.0, 22.0 ],
 					"text" : "r line"
 				}
 
@@ -175,7 +175,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 425.0, 366.0, 75.0, 22.0 ],
+					"patching_rect" : [ 425.0, 370.0, 75.0, 22.0 ],
 					"text" : "prepend line"
 				}
 
@@ -187,8 +187,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 425.0, 332.0, 88.0, 22.0 ],
-					"text" : "snapshot~ 200"
+					"patching_rect" : [ 425.0, 332.0, 81.0, 22.0 ],
+					"text" : "snapshot~ 20"
 				}
 
 			}
@@ -246,7 +246,7 @@
 					"numinlets" : 3,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 425.0, 263.0, 260.0, 22.0 ],
+					"patching_rect" : [ 425.0, 266.0, 260.0, 22.0 ],
 					"text" : "mc.record~ #0_buffer 2 @loop 1 @append 1"
 				}
 
@@ -258,7 +258,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 553.0, 441.0, 160.0, 22.0 ],
+					"patching_rect" : [ 554.0, 435.0, 160.0, 22.0 ],
 					"text" : "buffer~ #0_buffer 20000 2"
 				}
 
